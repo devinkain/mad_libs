@@ -38,7 +38,7 @@ for i, regx in enumerate(search_keywords):
         pr_2 = f'Please enter an {found_keyword[j]}. '
         pr_3 = f'Please enter a {found_keyword[j]} ending in \"ing\". '
         pr_4 = f'Please enter an {found_keyword[j]} ending in \"ly\". '
-        pr_5 = f'Please enter an {found_keyword[j]} ending in \"ed\". '
+        pr_5 = f'Please enter a {found_keyword[j]} ending in \"ed\". '
         
         if found_keyword[j] == 'NOUN' or found_keyword[j] == 'VERB':
             user_input = pyip.inputStr(prompt=pr_1, 
